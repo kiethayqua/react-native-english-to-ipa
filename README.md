@@ -1,6 +1,6 @@
 # react-native-english-to-ipa
 
-This package utilizes the Carnegie-Mellon University Pronouncing Dictionary to convert English text into the International Phonetic Alphabet.
+This package utilizes the Carnegie-Mellon University Pronouncing Dictionary to convert English text into the [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
 ## Installation
 
@@ -12,11 +12,12 @@ npm install react-native-english-to-ipa
 
 
 ```js
-import { multiply } from 'react-native-english-to-ipa';
+import { covert } from 'react-native-english-to-ipa';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = covert('One is loved because one is loved. No reason is needed for loving.');
+// wʌn ɪz lʌvd bɪˈkɔz wʌn ɪz lʌvd. noʊ ˈrizən ɪz ˈnidəd fɔr ˈlʌvɪŋ.
 ```
 
 

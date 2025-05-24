@@ -1,7 +1,8 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-english-to-ipa';
+import { convert } from 'react-native-english-to-ipa';
 
-const result = multiply(3, 7);
+const result = convert('One is loved because one is loved. No reason is needed for loving.');
+console.log(result);
 
 export default function App() {
   return (

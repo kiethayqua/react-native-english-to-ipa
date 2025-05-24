@@ -1,8 +1,9 @@
 const { findStress } = require('./stress');
+const jsonData = require('./resources/CMU_dict.json');
+
 
 class ModeType {
     constructor() {
-        const jsonData = require('../src/resources/CMU_dict.json')
         this.mode = jsonData;
     }
 }

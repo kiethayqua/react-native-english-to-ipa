@@ -1,6 +1,6 @@
 import { cmuSyllableCount } from './syllables';
 
-const phones = require('../src/resources/phones.json');
+const phones = require('./resources/phones.json');
 
 /**
  * Assume cmuSyllableCount and stressType are available.

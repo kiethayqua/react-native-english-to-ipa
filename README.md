@@ -12,11 +12,11 @@ npm install react-native-english-to-ipa
 
 
 ```js
-import { covert } from 'react-native-english-to-ipa';
+import { convert } from 'react-native-english-to-ipa';
 
 // ...
 
-const result = covert('One is loved because one is loved. No reason is needed for loving.');
+const result = convert('One is loved because one is loved. No reason is needed for loving.');
 // wʌn ɪz lʌvd bɪˈkɔz wʌn ɪz lʌvd. noʊ ˈrizən ɪz ˈnidəd fɔr ˈlʌvɪŋ.
 ```
 
